@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Elevator UI</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="elevator-container" class="hidden">
+        <div class="elevator-panel">
+            <div class="elevator-header">
+                <div class="elevator-title">
+                    <i class="fa-solid fa-elevator"></i>
+                    <h1 id="elevator-name">Elevator</h1>
+                </div>
+                <div class="elevator-close" id="close-btn">
+                    <i class="fa-solid fa-times"></i>
+                </div>
+            </div>
+            
+            <div class="elevator-info">
+                <div class="current-floor">
+                    <span>Current Floor:</span>
+                    <h2 id="current-floor-name">Ground Floor</h2>
+                </div>
+                <div class="elevator-status">
+                    <div class="status-indicator available">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <span>Available</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="floor-selection">
+                <h3>Select Destination</h3>
+                <div class="floors-grid" id="floors-container">
+                    <!-- Floors will be dynamically added here -->
+                </div>
+            </div>
+
+            <div class="elevator-footer">
+                <div class="building-info">
+                    <i class="fa-solid fa-building"></i>
+                    <span id="building-name">Building Name</span>
+                </div>
+                <div class="elevator-capacity">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Max Capacity: 8 Persons</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

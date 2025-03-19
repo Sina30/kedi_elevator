@@ -18,8 +18,6 @@ The Modern Elevator System is a robust and feature-rich elevator script designed
 
 - **ox_lib**: The `ox_lib` resource is required for the script to function. It provides essential functionality for the script, such as handling notifications and progress bars.
 
-- **kedi_ui**: The `kedi_ui` resource is used to create the modern and intuitive user interface for the elevators.
-
 ## Installation
 
 To install the Modern Elevator System, simply add the `kedi_elevator` folder to your server's resources directory and ensure that the `ox_lib` and `kedi_ui` resources are also installed. Then, add `start kedi_elevator` to your server.cfg file.

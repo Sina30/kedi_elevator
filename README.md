@@ -1,6 +1,6 @@
 # Advanced Modern Elevator System
 
-The Modern Elevator System is a robust and feature-rich elevator script designed for use in role-playing game modes. This script is built to work seamlessly with both ESX and QBCore, two of the most widely used frameworks in the GTA V role-playing community. It also requires the use of the `ox_lib` and `kedi_ui` resources to function properly.
+The Modern Elevator System is a robust and feature-rich elevator script designed for use in role-playing game modes. This script is built to work seamlessly with both ESX and QBCore, two of the most widely used frameworks in the GTA V role-playing community. It also requires the use of the `ox_lib` resources to function properly.
 
 ## Features
 
@@ -27,7 +27,6 @@ To install the Modern Elevator System, simply add the `kedi_elevator` folder to 
 Players can interact with the elevators by approaching them and pressing the 'E' key. This will open the elevator UI, allowing the player to select a destination floor. If the player does not have access to a certain floor, they will be notified and denied access.
 
 ## Preview
-![image|690x388](upload://yG5Sc5jBXURn7WIN1RqVhMJMnNu.jpeg)
 [Video](https://streamable.com/zx1y89)
 ## Support
 

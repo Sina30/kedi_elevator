@@ -12,6 +12,14 @@ local function ShowNotification(data)
             type = data.type,
             duration = data.duration or 5000
         })
+    else
+        exports['kedi_ui']:ShowNotification({
+            type = data.type,
+            title = data.title,
+            message = data.message,
+            icon = data.icon, -- FontAwesome icon class
+            duration = data.duration or 5000
+        })
     end
 end
 
@@ -24,6 +32,15 @@ local function ShowProgress(data)
             canCancel = data.canCancel,
             anim = data.animation,
         })
+    else
+        return exports['kedi_ui']:StartProgress({
+            label = data.label,
+            duration = data.duration,
+            canCancel = data.canCancel,
+            animation = data.animation,
+            onComplete = data.onComplete,
+            onCancel = data.onCancel
+        })
     end
 end
 
@@ -33,12 +50,23 @@ local function ShowTextUI(data)
             position = "right-center",
             icon = data.key,
         })
+    else
+        exports['kedi_ui']:ShowTextUI({
+            key = data.key,
+            message = data.message,
+            duration = data.duration,
+            hideOnKey = data.hideOnKey,
+            canInteract = data.canInteract,
+            onPress = data.onPress
+        })
     end
 end
 
 local function HideTextUI()
     if Config.UI.type == 'ox_lib' then
         lib.hideTextUI()
+    else
+        exports['kedi_ui']:HideTextUI()
     end
 end
 

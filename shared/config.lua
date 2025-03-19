@@ -1,7 +1,7 @@
 Config = {}
 
 Config.UI = {
-    type = 'kedi_ui', -- Dont touch
+    type = 'ox_lib', -- Dont touch
 }
 Config.Elevators = {
     PillboxElevatorNorth = {

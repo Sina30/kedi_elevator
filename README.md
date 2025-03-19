@@ -41,5 +41,5 @@ For support or to report issues, please visit the [GitHub repository] (https://g
 | Code is accessible       | Yes                 |
 | Subscription-based      | No                 |
 | Lines (approximately)  | 1000+  |
-| Requirements                | Ox_lib & Kedi_ui |
+| Requirements                | Ox_lib |
 | Support                           | Yes                |

@@ -26,6 +26,5 @@ files {
 }
 
 dependencies {
-	'ox_lib',
-	'kedi_ui'
+	'ox_lib'
 }
